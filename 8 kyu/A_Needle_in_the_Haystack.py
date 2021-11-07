@@ -13,8 +13,8 @@ find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 should return "found the needle at position 5"
 """
 def find_needle(haystack):
-    print(f"found the needle at position {haystack.index('needle')}")
+    return "found the needle at position " + str(haystack.index("needle"))
 
 ### how this works
 list_ = ['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk']
-print(f"found the needle at position {list_.index('needle')}")
+print("found the needle at position " + {list_.index('needle')})
