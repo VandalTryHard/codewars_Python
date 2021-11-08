@@ -11,8 +11,8 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 
 Note: for this kata y isn't considered a vowel."""
 
-def disemvowel(string_):
-    return ''.join(i for i in string_ if i not in 'aeiouAEIOU')
+# def disemvowel(string_):
+#     return ''.join(i for i in string_ if i not in 'aeiouAEIOU')
 
 
 ### how this works
