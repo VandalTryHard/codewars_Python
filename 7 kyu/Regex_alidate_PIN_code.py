@@ -15,6 +15,16 @@ Declarative Programming
 Advanced Language Features
 Strings"""
 
+# def validate_pin(pin):
+#     if len(pin) == 4 or len(pin) == 6:
+#         if pin != ''.join(filter(str.isdigit, pin)):
+#             return False
+#         else:
+#             return True
+#     else:
+#         return False
+
+
 # How this works
 pin1 = "1234"
 pin2 = "12345"
@@ -25,11 +35,10 @@ pin5 = "-12345"
 
 def validate_pin(pin):
     if len(pin) == 4 or len(pin) == 6:
-        try:
-            pin = int(pin)
-            print(True)
-        except ValueError:
+        if pin != ''.join(filter(str.isdigit, pin)):
             print(False)
+        else:
+            print(True)
     else:
         print(False)
 
