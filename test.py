@@ -1,3 +1,3 @@
-let = "BCDFGHJKLMNPQRSTVWXZ"
-let.lower()
-print(let.lower())
+lst = []
+lst.append("Hello")
+print(lst)
