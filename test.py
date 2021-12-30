@@ -1,3 +1,2 @@
-lst = []
-lst.append("Hello")
-print(lst)
+x = 3
+print(x // 3)
