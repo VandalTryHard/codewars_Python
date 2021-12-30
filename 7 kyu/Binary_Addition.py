@@ -1,0 +1,36 @@
+"""
+7 kyu
+Binary Addition
+Implement a function that adds two numbers together and returns their sum in binary.
+The conversion can be done before, or after the addition.
+
+The binary number returned should be a string.
+
+Examples:(Input1, Input2 --> Output (explanation)))
+
+1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
+5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
+
+Fundamentals
+Binary
+"""
+
+"""
+def add_binary(a,b):
+    result = a + b
+    return str(bin(result)[2:])
+"""
+
+
+# How this works
+def main():
+    print(add_binary(1, 1))
+    print(add_binary(51, 12))
+
+
+def add_binary(a, b):
+    result = a + b
+    return str(bin(result)[2:])
+
+
+main()
