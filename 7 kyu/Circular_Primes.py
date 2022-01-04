@@ -21,8 +21,8 @@ def main():
     print(circular_prime(971))
 
 
-def circular_prime(word):
-    pass
+def circular_prime(n):
+    return "ХУЙ ЕГО ЗНАЕТ"
 
 
 main()
